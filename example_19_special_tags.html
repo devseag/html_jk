@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Special tags</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+	<details>
+		<summary>Info about autor</summary>
+		<p>Bender Rodrigez</p>
+	</details>
+	
+	Check 123<mark>higlithed</mark> 1233 checker
+	
+	<ruby>
+		sym1<rt>han</rt>
+		sym2<rt>zi</rt>
+	</ruby>
+	
+	<progress max="100" value="25">
+	Loading on <span id="value>25</span>%
+	</progress>
+	
+	<!-- DID NOT WORK: -->
+	<form oninput="result.value=(cm.value/2.54).toFixed(2)">
+		<p>Write lenght in cm:
+		<input type="number" name="cm" autofocus></p>
+		<p>Length in dume: <output name="result">0</output></p>
+	</form>
+	
+</body>
+</html>
